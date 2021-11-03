@@ -1,6 +1,6 @@
 // DATASYSTEM DONT TOUCH UNLESS YOU KNOW WHAT YOU'RE DOING
 // REQUIRES ENMAP TO BEI NSTALLED (visit the enmap site for a tutorial) AND BE ADDED TO THE SANDBOX VM (in start.js)
-
+const Enmap = getModule('enmap'); // Add to modules array
 const enmap_db = new Enmap({
     name: "playerlevelstesting",
     autoFetch: true,
