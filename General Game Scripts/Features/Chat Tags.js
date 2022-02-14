@@ -2,9 +2,9 @@ Game.on("chat", async (player, message) => {
     if (player.admin){
         Game.messageAll("[BH Admin] "+ player.username+ ": "+ message)
     }
-
-    else if (player.userId == 1){
-        Game.messageAll("[Brickster!]"+ player.username+": "+message)
+    // Change == 1 with your own id
+    else if (player.userId === 1){
+        Game.messageAll("[I am Someone!]"+ player.username+": "+message)
 
     }
     else {
